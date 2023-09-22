@@ -1,0 +1,21 @@
+*{
+    font-family: Verdana,sans-serif;
+}
+img{
+    border-radius: 10px;
+}
+img:hover{
+    scale: 1.1;
+    transition: all ease-in-out .1s;
+    cursor: pointer;
+
+}
+#viewImage img:hover{
+    scale: 1;
+    cursor: default;
+}
+.col-lg-2, .col-4 {
+    background-image: url('../images/Loading.gif')!important;
+    background-position: center;
+    background-repeat: no-repeat;
+}
